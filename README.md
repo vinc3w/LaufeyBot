@@ -2,7 +2,7 @@
   <img src="./assets/laufey-banner.png" alt="Laufey">
 </a>
 
-### <h1>LaufeyBot ✨</h1>
+### <h1>✨ LaufeyBot ✨</h1>
 
 LaufeyBot is a discord bot that represent Laufey. Play music and listen along with friends and family!
 
