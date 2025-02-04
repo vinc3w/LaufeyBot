@@ -4,7 +4,7 @@
 
 ### <h1>✨ LaufeyBot ✨</h1>
 
-LaufeyBot is a discord bot that represent Laufey. Play music and listen along with friends and family!
+LaufeyBot is a discord bot that represents Laufey. Play music and listen along with family and friends!
 
 <br>
 
