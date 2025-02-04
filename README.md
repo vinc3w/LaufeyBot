@@ -1,12 +1,28 @@
-<a href="https://github.com/vinc3w/LaufeyBot"><img src="./assets/laufey-banner.png" alt="Laufey"></a>
+<style>
+  .title {
+    font-size: 5rem;
+    font-weight: bold;
+    margin-bottom: 1.3rem;
+  }
+  
+  .subtitle {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 2rem 0 1rem 0;
+  }
+</style>
 
-# LaufeyBot
+<a href="https://github.com/vinc3w/LaufeyBot">
+  <img src="./assets/laufey-banner.png" alt="Laufey">
+</a>
 
-<br>
+<div class="title">LaufeyBot ✨</div>
 
-# 🚀 Getting Started
+LaufeyBot is a discord bot that represent Laufey. Play music and listen along with friends and family!
 
-<br>
+---
+
+<div class="subtitle">Getting Started</div>
 
 - Open the terminal and run the following commands
 
@@ -16,22 +32,15 @@ cd LaufeyBot
 npm install
 ```
 
-- Wait for all the dependencies to be installed
-- Rename `.env.example` to `.env` and fill the values
-
-```
-You may change the value that are already existing but make sure you know what you are doing.
-```
-
-- Optionally edit `config.js`
+- Rename `.env.example` to `.env` and fill the missing values
+- Optionally edit existing `.env` values and `config.js`
 - Type `npm run dev` to start the bot
-- Enter `-help` in discord to get to know all of LaufeyBot commands!
+- If you need any additional help, contact me at [here](https://discord.com/users/582932383381192705)
 
-If you need any additional help, contact me at [here](https://discord.com/users/582932383381192705)
+<div class="subtitle">Features</div>
 
-<br>
+- Play music 😊
 
-# ❤️ Credits
+<div class="subtitle">Credits</div>
 
 - [Saiteja Madha](https://github.com/saiteja-madha/discord-js-bot) - Referred for project structure
-- [Spotify API](https://developer.spotify.com/documentation/web-api) - Used for data
