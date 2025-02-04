@@ -10,8 +10,6 @@ LaufeyBot is a discord bot that represent Laufey. Play music and listen along wi
 
 # Getting Started
 
-<br>
-
 - Open the terminal and run the following commands
 
 ```
@@ -26,13 +24,9 @@ npm install
 - If you need any additional help, contact me at [here](https://discord.com/users/582932383381192705)
 
 
-<br>
-
 ## Features
 
 - Play music 😊
-
-<br>
 
 ## Credits
 
