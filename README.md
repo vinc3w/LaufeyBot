@@ -23,10 +23,13 @@ npm install
 - Type `npm run dev` to start the bot
 - If you need any additional help, contact me at [here](https://discord.com/users/582932383381192705)
 
+<br>
 
 ## Features
 
 - Play music 😊
+
+<br>
 
 ## Credits
 
