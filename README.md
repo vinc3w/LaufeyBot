@@ -34,3 +34,5 @@ npm install
 ## Credits
 
 - [Saiteja Madha](https://github.com/saiteja-madha/discord-js-bot) - Referred for project structure
+
+<br>
