@@ -91,6 +91,7 @@ export default class Player {
     this.loopState = LoopState.OFF;
     this.queue = [];
     this.currentTrack = null;
+    this.textChannel = null;
     this.voiceChannel = null;
 
     return voiceChannelTemp;
