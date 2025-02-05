@@ -6,7 +6,7 @@
 
 LaufeyBot is a discord bot that represents Laufey. Play music and listen along with family and friends!
 
-# Getting Started
+## Getting Started
 
 - Open the terminal and run the following commands
 
