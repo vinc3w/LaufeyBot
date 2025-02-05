@@ -165,8 +165,12 @@ export default class Player {
       this.play();
     });
 
-    this.player.on(AudioPlayerStatus.Playing, () => {
-      if (!this.currentTrack || !this.textChannel) return;
+    this.player.on(AudioPlayerStatus.Playing, oldState => {
+      if (
+        !this.currentTrack ||
+        !this.textChannel ||
+        oldState.status === AudioPlayerStatus.AutoPaused
+      ) return;
       this.currentTrack.startPlayDate = new Date();
       this.textChannel.sendInfo(`Now playing \`${this.currentTrack.name}\``);
     });
