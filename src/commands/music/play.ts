@@ -56,7 +56,6 @@ export default class PlayCommand extends Command {
         message.replySuccess(`${tracks.map(t => `\`${t.name}\``).join(", ")} added to queue.`);
       }
     } catch (error) {
-      console.log(error)
       message.replyError("You must be in a voice channel to use this command!");
     }
   }
