@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "module": "commonjs",
+    "rootDir": "./src",                    
+    "resolveJsonModule": true,
+    "noEmitOnError": true,
+    "outDir": "./dist",
+    "removeComments": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "skipLibCheck": true,
+    "baseUrl": "./src",
+    "paths": {
+      "@api/*": ["api/*"],
+      "@handlers/*": ["handlers/*"],
+      "@helpers/*": ["helpers/*"],
+      "@structures/*": ["structures/*"],
+      "@typings/*": ["typings/*"]
+    },
+  },
+  "include": ["src"],
+  "exclude": ["node_modules"]
+}

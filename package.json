@@ -1,0 +1,39 @@
+{
+  "name": "laufeybot",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "start": "node ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@discordjs/voice": "^0.18.0",
+    "axios": "^1.7.9",
+    "discord.js": "^14.17",
+    "dotenv": "^16.4.7",
+    "ffmpeg-static": "^5.2.0",
+    "fs": "^0.0.1-security",
+    "libsodium-wrappers": "^0.7.15",
+    "opusscript": "^0.0.8",
+    "pino": "^9.6.0",
+    "pino-pretty": "^13.0.0",
+    "typescript": "^5.7.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.0",
+    "module-alias": "^2.2.3",
+    "tsx": "^4.19.2"
+  },
+  "_moduleAliases": {
+    "@api": "dist/api",
+    "@handlers": "dist/handlers",
+    "@helpers": "dist/helpers",
+    "@structures": "dist/structures",
+    "@typings": "dist/typing*"
+  }
+}
