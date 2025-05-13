@@ -95,6 +95,8 @@ Follow the steps below to install the project.
 ## Credits
 - [Saiteja Madha](https://github.com/saiteja-madha/discord-js-bot) - Referred for project structure
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
