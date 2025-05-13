@@ -15,7 +15,7 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## About DimeDuck
+## About LaufeyBot
 
 ![Laufey Banner][laufey-banner.png]
 
